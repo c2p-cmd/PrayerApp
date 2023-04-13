@@ -12,6 +12,14 @@
 		00D3CF4729E80829004E5173 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3CF4629E80829004E5173 /* ContentView.swift */; };
 		00D3CF4929E8082B004E5173 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF4829E8082B004E5173 /* Assets.xcassets */; };
 		00D3CF4C29E8082B004E5173 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF4B29E8082B004E5173 /* Preview Assets.xcassets */; };
+		00D3CF5829E808B1004E5173 /* AudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3CF5729E808B1004E5173 /* AudioView.swift */; };
+		00D3CF5F29E81334004E5173 /* dreams.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF5B29E81333004E5173 /* dreams.mp3 */; };
+		00D3CF6029E81334004E5173 /* allthat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF5C29E81333004E5173 /* allthat.mp3 */; };
+		00D3CF6129E81334004E5173 /* inspire.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF5D29E81333004E5173 /* inspire.mp3 */; };
+		00D3CF6229E81334004E5173 /* jumpingbean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 00D3CF5E29E81334004E5173 /* jumpingbean.mp3 */; };
+		00D3CF6429E816B9004E5173 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3CF6329E816B9004E5173 /* Utils.swift */; };
+		00D3CF6629E81D80004E5173 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3CF6529E81D80004E5173 /* AudioModel.swift */; };
+		00D3CF6829E86357004E5173 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D3CF6729E86357004E5173 /* MotionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +53,14 @@
 		00D3CF4629E80829004E5173 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00D3CF4829E8082B004E5173 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00D3CF4B29E8082B004E5173 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00D3CF5729E808B1004E5173 /* AudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioView.swift; sourceTree = "<group>"; };
+		00D3CF5B29E81333004E5173 /* dreams.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dreams.mp3; sourceTree = "<group>"; };
+		00D3CF5C29E81333004E5173 /* allthat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = allthat.mp3; sourceTree = "<group>"; };
+		00D3CF5D29E81333004E5173 /* inspire.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = inspire.mp3; sourceTree = "<group>"; };
+		00D3CF5E29E81334004E5173 /* jumpingbean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jumpingbean.mp3; sourceTree = "<group>"; };
+		00D3CF6329E816B9004E5173 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		00D3CF6529E81D80004E5173 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		00D3CF6729E86357004E5173 /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,10 +94,13 @@
 		00D3CF4329E80829004E5173 /* PrayerApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				00D3CF5A29E8109C004E5173 /* Audios */,
+				00D3CF5629E80896004E5173 /* Screens */,
 				00D3CF4429E80829004E5173 /* PrayerAppApp.swift */,
 				00D3CF4629E80829004E5173 /* ContentView.swift */,
 				00D3CF4829E8082B004E5173 /* Assets.xcassets */,
 				00D3CF4A29E8082B004E5173 /* Preview Content */,
+				00D3CF6729E86357004E5173 /* MotionManager.swift */,
 			);
 			path = "PrayerApp Watch App";
 			sourceTree = "<group>";
@@ -92,6 +111,27 @@
 				00D3CF4B29E8082B004E5173 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00D3CF5629E80896004E5173 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				00D3CF5729E808B1004E5173 /* AudioView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		00D3CF5A29E8109C004E5173 /* Audios */ = {
+			isa = PBXGroup;
+			children = (
+				00D3CF5C29E81333004E5173 /* allthat.mp3 */,
+				00D3CF5B29E81333004E5173 /* dreams.mp3 */,
+				00D3CF5D29E81333004E5173 /* inspire.mp3 */,
+				00D3CF5E29E81334004E5173 /* jumpingbean.mp3 */,
+				00D3CF6329E816B9004E5173 /* Utils.swift */,
+				00D3CF6529E81D80004E5173 /* AudioModel.swift */,
+			);
+			path = Audios;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,7 +221,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D3CF4C29E8082B004E5173 /* Preview Assets.xcassets in Resources */,
+				00D3CF6229E81334004E5173 /* jumpingbean.mp3 in Resources */,
+				00D3CF5F29E81334004E5173 /* dreams.mp3 in Resources */,
+				00D3CF6129E81334004E5173 /* inspire.mp3 in Resources */,
 				00D3CF4929E8082B004E5173 /* Assets.xcassets in Resources */,
+				00D3CF6029E81334004E5173 /* allthat.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +237,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				00D3CF4729E80829004E5173 /* ContentView.swift in Sources */,
+				00D3CF6829E86357004E5173 /* MotionManager.swift in Sources */,
+				00D3CF5829E808B1004E5173 /* AudioView.swift in Sources */,
 				00D3CF4529E80829004E5173 /* PrayerAppApp.swift in Sources */,
+				00D3CF6429E816B9004E5173 /* Utils.swift in Sources */,
+				00D3CF6629E81D80004E5173 /* AudioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +311,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -314,6 +363,7 @@
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -335,15 +385,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.PrayerApp.watchkitapp;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.HymPlayerApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Debug;
 		};
@@ -365,8 +415,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.PrayerApp.watchkitapp;
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.HymPlayerApp.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -374,7 +424,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.0;
 			};
 			name = Release;
 		};
@@ -387,7 +437,7 @@
 				DEVELOPMENT_TEAM = HJ3C6V359D;
 				INFOPLIST_KEY_CFBundleDisplayName = PrayerApp;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.PrayerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.HymPlayerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
@@ -403,7 +453,7 @@
 				DEVELOPMENT_TEAM = HJ3C6V359D;
 				INFOPLIST_KEY_CFBundleDisplayName = PrayerApp;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.PrayerApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kidastudios.HymPlayerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SWIFT_VERSION = 5.0;
